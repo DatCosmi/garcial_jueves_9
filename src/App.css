@@ -41,19 +41,28 @@ body {
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: center;
+
   align-items: center;
   flex-direction: column;
   background: linear-gradient(
     to bottom right,
     rgb(230, 64, 114),
-    rgb(218, 77, 171)
+    rgb(248, 124, 100)
   );
 }
 
 h1 {
   color: #fff;
   font-size: 2.5vw;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2vw;
+}
+
+p {
+  color: #fff;
 }
 
 .main-title {
