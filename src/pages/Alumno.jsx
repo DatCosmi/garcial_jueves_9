@@ -1,7 +1,15 @@
+import { Container } from "react-bootstrap";
+import CV from "../img/CV.png";
+
 function Alumno() {
   return (
     <>
-      <h1>Bienvenido a la Página de Alumnos</h1>
+      <Container>
+        <h1>Carlos Iván García López</h1>
+        <div className="foto">
+          <img src={CV} />
+        </div>
+      </Container>
     </>
   );
 }
