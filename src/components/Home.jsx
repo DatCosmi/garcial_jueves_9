@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Login from "./Login";
 import Alumno from "../pages/Alumno";
 import Mockup from "../pages/Mockup";
 import Inicio from "../pages/Inicio";
 import Mapa from "./Mapa";
 import Logout from "../pages/Logout";
+import LoginPage from "../pages/LoginPage";
+import LoginGoogle from "./LoginGoogle";
 
 function Home() {
   return (
@@ -27,6 +28,9 @@ function Home() {
           <Link to="/Login" className="btn btn-dark">
             LOGIN
           </Link>
+          <Link to="/LoginGoogle" className="btn btn-dark">
+            LOGIN GOOGLE
+          </Link>
           <Link to="/Logout" className="btn btn-dark">
             LOGOUT
           </Link>
@@ -46,7 +50,10 @@ function Home() {
             <Mockup />
           </Route>
           <Route path="/Login">
-            <Login />
+            <LoginPage />
+          </Route>
+          <Route path="/LoginGoogle">
+            <LoginGoogle />
           </Route>
           <Route path="/Logout">
             <Logout />

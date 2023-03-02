@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Curriculum() {
   return (
     <>
-      <h1>Curriculum</h1>
+      <h1 className="titulo">Curriculum</h1>
       <div className="foto">
         <img src={curriculum} />
       </div>

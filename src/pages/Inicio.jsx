@@ -6,8 +6,8 @@ function Inicio() {
       <Container className="mt-5">
         <Row>
           <Col>
-            <h2>MÉTODO RENDER</h2>
-            <p>
+            <h2 className="titulo">MÉTODO RENDER</h2>
+            <p className="parrafo">
               El término “render prop” se refiere a una técnica para compartir
               código entre componentes en React utilizando una propiedad cuyo
               valor es una función. Un componente con una render prop toma una
@@ -16,8 +16,8 @@ function Inicio() {
             </p>
           </Col>
           <Col>
-            <h2>MÉTODO STRICT MODE</h2>
-            <p>
+            <h2 className="titulo">MÉTODO STRICT MODE</h2>
+            <p className="parrafo">
               StrictMode es una herramienta para destacar problemas potenciales
               en la aplicación. Al igual que Fragment, StrictMode no renderiza
               nada en la interfaz de usuario. Este modo también activa
@@ -25,8 +25,8 @@ function Inicio() {
             </p>
           </Col>
           <Col>
-            <h2>MÉTODO RETURN</h2>
-            <p>
+            <h2 className="titulo">MÉTODO RETURN</h2>
+            <p className="parrafo">
               La sentencia return se emplea para salir de la secuencia de
               ejecución de las sentencias de un método y, opcionalmente,
               devolver un valor. Tras la salida del método se vuelve a la

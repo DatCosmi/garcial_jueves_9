@@ -5,7 +5,7 @@ function Alumno() {
   return (
     <>
       <Container>
-        <h1>Carlos Iván García López</h1>
+        <h1 className="titulo">Carlos Iván García López</h1>
         <div className="foto">
           <img src={CV} />
         </div>

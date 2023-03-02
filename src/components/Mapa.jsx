@@ -7,7 +7,7 @@ export default class Mapa extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Mapa</h1>
+        <h1 className="titulo">Mapa</h1>
         <br />
         <GoogleMaps
           apiKey={"AIzaSyBPDULIRm_tfXQDHNhR2RZvgWwwSvGFzTE"}

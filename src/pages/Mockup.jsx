@@ -5,7 +5,7 @@ function Mockup() {
   return (
     <>
       <Container>
-        <h1>Mockup</h1>
+        <h1 className="titulo">Mockup</h1>
         <img src={mockup} />
       </Container>
     </>
