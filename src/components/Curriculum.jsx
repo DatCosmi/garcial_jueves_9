@@ -1,4 +1,4 @@
-import curriculum from "../img/curriculum.png";
+import CV from "../img/CV.png";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -7,12 +7,9 @@ function Curriculum() {
     <>
       <h1 className="titulo">Curriculum</h1>
       <div className="foto">
-        <img src={curriculum} />
+        <img src={CV} />
       </div>
       <br />
-      <Button variant="light" as={Link} to="/">
-        Regresar
-      </Button>
     </>
   );
 }

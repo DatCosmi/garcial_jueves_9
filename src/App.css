@@ -4,7 +4,6 @@
   font-weight: 400;
 }
 body {
-  height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -41,11 +40,14 @@ p {
   height: 30vw;
   width: 20vw;
   display: flex;
+  margin: auto;
 }
 
 .btn-group {
   display: flex;
   margin: auto;
+  position: relative;
+  margin-top: 3vw;
 }
 
 .m-1 {

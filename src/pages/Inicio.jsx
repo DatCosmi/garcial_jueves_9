@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 function Inicio() {
   return (
@@ -35,6 +35,16 @@ function Inicio() {
             </p>
           </Col>
         </Row>
+        <div>
+          <Button
+            as="a"
+            target="_blank"
+            href="https://github.com/DatCosmi/garcial_jueves_9"
+            className="btn btn-dark"
+          >
+            Proyecto en GitHub
+          </Button>
+        </div>
       </Container>
     </>
   );

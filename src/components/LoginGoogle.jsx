@@ -37,25 +37,13 @@ function LoginGoogle() {
   };
 
   return (
-    <div className="center">
-      <h1 className="titulo">CREDENCIALES DEL USUARIO</h1>
-      <div className="btn">
-        <GoogleLogin
-          clientId={keyLogin}
-          onSuccess={logeado_exito}
-          onFailure={fallo_login}
-          buttonText="INGRESAR"
-          cookiePolicy={"single_host_origin"}
-        />
-      </div>
-
-      <div class={user ? "profile" : "hidden"}>
-        <img src={user.imageUrl} alt="" />
-        <h3 className="parrafo">{user.name}</h3>
-        <h3 className="parrafo">{user.email}</h3>
-        <h3 className="parrafo">{user.googleId}</h3>
-      </div>
-    </div>
+    <GoogleLogin
+      clientId={keyLogin}
+      onSuccess={logeado_exito}
+      onFailure={fallo_login}
+      buttonText="Login with Google"
+      cookiePolicy={"single_host_origin"}
+    />
   );
 }
 export default LoginGoogle;
